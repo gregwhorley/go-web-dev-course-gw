@@ -1,0 +1,15 @@
+To: {{.Name}} <{{.Email}}>
+From: Greg W.
+Subject: {{.Subject}}
+
+Greetings {{.Name}},
+
+Welcome to my template! {{if .Interested}}I see you're interested in my special one time offer.
+{{- else}}
+I understand that you are not interested in my special one time offer.
+{{- end}}
+{{with .Referral -}}
+I will send an invite link to the referral you provided, {{.}}.
+{{end}}
+Best,
+Greg
