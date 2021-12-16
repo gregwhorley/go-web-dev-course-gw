@@ -1,6 +1,6 @@
 To: {{.Name}} <{{.Email}}>
 From: Greg W.
-Subject: {{.Subject}}
+Subject: Hello World
 
 Greetings {{.Name}},
 
