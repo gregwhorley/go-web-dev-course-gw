@@ -1,3 +1,4 @@
+{{ range
 To: {{.Name}} <{{.Email}}>
 From: Greg W.
 Subject: Hello World
